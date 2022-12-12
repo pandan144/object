@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object task</title>
+</head>
+<body>
+
+    <script>
+
+        //add the object newkey:newvalue
+        let ak={
+            name:"arul",
+            age:21,
+            id:7,
+        };
+        ak.degree="bca";
+        console.log(ak);
+
+
+        // key change 
+
+        let gur={
+            name:"guru",
+            age:26,
+            id:1,
+            degree:"bca",
+        };
+        gur.fristname=gur.name;
+        console.log(gur);
+
+        //remove key
+
+        let raj={
+            name:"raj",
+            age:20,
+            id:11,
+            degree:"bca",
+        };
+        delete(raj.degree)
+        console.log(raj);
+
+
+        let ani={
+            bike:["R15","MT15","RX100","Duke"],
+            
+            man:{
+                hollwood:"marval",
+                hero:"spiderman",
+            },
+            html:myfun(),
+            css:3,
+            js:5,
+
+        };
+        console.log(ani);
+
+        function myfun(n){
+            n=5
+            return n;
+        }
+    </script>
+    
+</body>
+</html>
